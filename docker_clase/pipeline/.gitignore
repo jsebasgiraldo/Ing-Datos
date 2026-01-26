@@ -1,0 +1,23 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Python
+*.pyc
+
+# Docker
+ny_taxi_postgres_data/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
