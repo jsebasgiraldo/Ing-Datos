@@ -12,3 +12,6 @@ ny_taxi_postgres_data/
 # OS
 .DS_Store
 Thumbs.db
+
+.env_encoded
+*.json
