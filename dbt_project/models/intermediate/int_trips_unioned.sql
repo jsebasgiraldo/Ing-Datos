@@ -11,13 +11,4 @@ trips_unioned as (
     select * from yellow_tripdata
 )
 
-select
-    {{ dbt_utils.generate_surrogate_key([
-        'vendor_id',
-        'pickup_datetime',
-        'dropoff_datetime',
-        'pickup_location_id',
-        'dropoff_location_id'
-    ]) }} as trip_id,
-    *
-from trips_unioned
+select * from trips_unioned

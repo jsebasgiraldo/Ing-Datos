@@ -23,7 +23,8 @@ cast(tip_amount as numeric) as tip_amount,
 cast(tolls_amount as numeric) as tolls_amount,
 cast(improvement_surcharge as numeric) as improvement_surcharge,
 cast(total_amount as numeric) as total_amount,
-cast(payment_type as integer) as payment_type
+cast(payment_type as integer) as payment_type,
+'green' as service_type
 
  from {{source('raw_data','green_tripdata_partitioned')}}
  where vendor_id is not null
