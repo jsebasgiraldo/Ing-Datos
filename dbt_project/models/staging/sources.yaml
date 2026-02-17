@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: raw_data
+    description: "Raw data sources for NYC taxi rides"
+    database: kestra-sandbox-486123
+    schema: rides_dataset_2019_2020
+    tables:
+      - name: yellow_tripdata_partitioned
+      - name: green_tripdata_partitioned
