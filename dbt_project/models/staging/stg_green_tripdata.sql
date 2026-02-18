@@ -22,6 +22,7 @@ cast(mta_tax as numeric) as mta_tax,
 cast(tip_amount as numeric) as tip_amount,
 cast(tolls_amount as numeric) as tolls_amount,
 cast(improvement_surcharge as numeric) as improvement_surcharge,
+cast(ehail_fee as numeric) as ehail_fee,
 cast(total_amount as numeric) as total_amount,
 cast(payment_type as integer) as payment_type,
 'green' as service_type

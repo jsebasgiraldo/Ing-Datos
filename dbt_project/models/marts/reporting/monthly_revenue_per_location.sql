@@ -16,7 +16,7 @@ select
     sum(mta_tax) as revenue_monthly_mta_tax,
     sum(tip_amount) as revenue_monthly_tip_amount,
     sum(tolls_amount) as revenue_monthly_tolls_amount,
-    --sum(ehail_fee) as revenue_monthly_ehail_fee,
+    sum(ehail_fee) as revenue_monthly_ehail_fee,
     sum(improvement_surcharge) as revenue_monthly_improvement_surcharge,
     sum(total_amount) as revenue_monthly_total_amount,
 

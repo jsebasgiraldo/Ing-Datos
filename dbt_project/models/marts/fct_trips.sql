@@ -48,7 +48,7 @@ select
     trips.mta_tax,
     trips.tip_amount,
     trips.tolls_amount,
-    --trips.ehail_fee,
+    trips.ehail_fee,
     trips.improvement_surcharge,
     trips.total_amount,
     trips.payment_type,
