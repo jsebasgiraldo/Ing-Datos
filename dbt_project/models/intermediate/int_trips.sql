@@ -37,7 +37,7 @@ cleaned_and_enriched as (
         u.mta_tax,
         u.tip_amount,
         u.tolls_amount,
-        --u.ehail_fee,
+        u.ehail_fee,
         u.improvement_surcharge,
         u.total_amount,
 
